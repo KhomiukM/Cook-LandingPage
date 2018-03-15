@@ -1,0 +1,127 @@
+﻿body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #eedac1;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+header {
+    background-image: url(img/headerBG.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 600px;
+}
+
+.conteiner {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.titles {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    color: #eedac1;
+    padding-top: 200px;
+}
+
+.shadows {
+    text-shadow: 6px 6px 50px black, 0 0 1em #57112d;
+    margin: 0 auto;
+}
+
+div {
+    box-sizing: border-box;
+    position: center;
+    text-align: center;
+}
+
+.spacingforA {
+    padding-top: 80px;
+    word-spacing: 200px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+a {
+    color: #fff598;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #7ec2ab;
+    }
+
+table {
+    margin:0 auto;
+}
+
+    table tr td a {
+        color: #57112d;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Gloria Hallelujah', cursive;
+        opacity: 0.8;
+    }
+        table tr td a:hover {
+            opacity:1;
+            color: #a82159;
+        }
+
+hr {
+    border: 0;
+    height: 5px;
+    background-image: -webkit-linear-gradient(left, #35ae5b, #b28080, #2aab26);
+    background-image: -moz-linear-gradient(left, #35ae5b, #b28080, #2aab26);
+    background-image: -ms-linear-gradient(left, #35ae5b, #b28080, #2aab26);
+    background-image: -o-linear-gradient(left, #35ae5b, #b28080, #2aab26);
+}
+
+.padding {
+    padding-top:50px;
+    padding-bottom:20px;
+}
+
+ol {
+    font-size:18px;
+    margin:50px 150px;
+    list-style-position:inside;
+    word-spacing:3px;
+    line-height:40px;
+}
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+}
+
+#a {
+    opacity:0.7;
+    margin-left:50px;
+    padding-bottom:80px;
+}
+#a:hover {
+    opacity: 1;
+}
+
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+footer {
+    margin-top: 100px;
+    
+}
+    footer div a {
+        color: #726a66;
+    }
